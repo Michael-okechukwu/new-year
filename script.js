@@ -62,7 +62,7 @@ function updateTimer() {
     
     const currentYear = new Date().getFullYear();
     const nextYear = currentYear ;
-    const newYearDate = new Date(`January 1, ${nextYear} 00:00:00`).getTime();
+    const newYearDate = new Date(`December 31, ${nextYear} 00:00:00`).getTime();
 
     const now = new Date().getTime();
     const gap = newYearDate - now;
