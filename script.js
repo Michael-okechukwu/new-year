@@ -61,7 +61,7 @@ function updateTimer() {
     // Example: new Date("Dec 31, 2025 23:59:59").getTime();
     
     const currentYear = new Date().getFullYear();
-    const nextYear = currentYear + 1;
+    const nextYear = currentYear ;
     const newYearDate = new Date(`January 1, ${nextYear} 00:00:00`).getTime();
 
     const now = new Date().getTime();
